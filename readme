@@ -1,0 +1,5 @@
+I used maven tool as a project management tool that help me to download jars file automatically and help me to run the project from cmd
+
+I used TestNG as a test runner that helps me to run suite and parallel  test
+
+I used page object model as  project structure that help me to differentiate between element and test cases and help to to easy update for any thing in the project
