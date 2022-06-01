@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google Maps Test" >
+
+
+    <parameter name="platformName" value="Android"/>
+    <parameter name="device" value="Pixel 3 XL"/>
+    <parameter name="os_version" value="11"/>
+    <parameter name="url" value="http://0.0.0.0:4723/wd/hub"/>
+
+    <test name="google map Test Cases">
+        <classes>
+            <class name="Tests.Test_Bases.Search_Test_case"/>
+        </classes>
+
+    </test>
+</suite>
