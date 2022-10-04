@@ -16,6 +16,8 @@ public class Search_screen extends Screen_Base{
     @AndroidFindBy(id = "searchboxinput")
     public MobileElement search_text_box;
 
+    @AndroidFindBy()
+
     @AndroidFindBy(id = "sbse28x0")
     public MobileElement first_result;
 
